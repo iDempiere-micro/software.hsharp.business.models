@@ -1,5 +1,3 @@
 package software.hsharp.business.models
 
-interface ICustomer: IBusinessPartner {
-    val categories : Array<ICategory>
-}
+interface ICustomer: IBusinessPartner, ICategorizedEntity

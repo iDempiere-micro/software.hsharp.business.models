@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/resources" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/scala" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/kotlin" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/test/resources" isTestSource="true"/>
       <sourceFolder url="file://$MODULE_DIR$/test/java" isTestSource="true"/>
       <sourceFolder url="file://$MODULE_DIR$/test/scala" isTestSource="true"/>
@@ -16,6 +17,7 @@
     <orderEntry type="sourceFolder" forTests="false"/>
     <output url="file://$MODULE_DIR$/bin"/>
     <output-test url="file://$MODULE_DIR$/bin_test"/>
+    <orderEntry level="project" name="scala-sdk-2.12.3" type="library"/>
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
@@ -1336,7 +1338,6 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry level="project" name="scala-sdk-2.12.3" type="library"/>
   </component>
   <component name="ModuleRootManager"/>
 </module>
