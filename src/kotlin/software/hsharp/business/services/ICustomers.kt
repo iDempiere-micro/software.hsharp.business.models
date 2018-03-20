@@ -8,3 +8,6 @@ interface ICustomers {
     fun getCustomerById( id : Int ) : ICustomerResult
     fun getCustomersByAnyCategory( categories : Array<ICategory> ) : ICustomersResult
 }
+
+interface ICustomersImpl : ICustomers
+interface ICustomersEndpoint : ICustomers

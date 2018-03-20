@@ -6,3 +6,6 @@ interface IBusinessPartners {
     fun getAllBusinessPartners() : IBusinessPartnersResult
     fun getBusinessPartnerById( id : Int ) : IBusinessPartnerResult
 }
+
+interface IBusinessPartnersImpl : IBusinessPartners
+interface IBusinessPartnersEndpoint : IBusinessPartners
