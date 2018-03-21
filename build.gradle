@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':software.hsharp.core.models')
+    compile files('../software.hsharp.core.models/bin')
+}
